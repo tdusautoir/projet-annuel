@@ -1,0 +1,148 @@
+body {
+    display: grid;
+    background-color: #130025;
+    font-family: RedHatDisplay;
+    color: white;
+  }
+  @font-face {
+    font-family: RedHatDisplay;
+    src: url(font/RedHatDisplay-Black.ttf);
+  }
+  @font-face {
+    font-family: Lexend;
+    src: url(font/Lexend-Thin.ttf);
+  }
+  
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    background-color: #222222;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #222222;
+  }
+  .menu {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .menu a{
+    font-family: Lexend;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+	list-style: none;
+    padding: 0 10px;
+    color: #FFF;
+    transition: all 0.1s ease 0.2s;
+  }
+  .menu a:hover {
+    color: #62bcda;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+  }
+  h1 {
+    font-family: RedHatDisplay;
+    font-size: 100px;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    margin-top: 111px;
+  }
+  
+  h3
+  {
+      font-size: 60px;
+      text-align: center;
+  }
+
+  form
+  {
+    font-family: Lexend;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h4
+  {
+    font-family: Lexend;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .username
+  {
+    font-size: 100px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+
+input[type=submit] 
+{
+    background-color: #21003f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+input[type=submit]:hover 
+{
+    background-color: #47008a;
+    color: white;
+}
+
+.login[type=submit]
+{
+  margin-top: 80px;
+}
+
+.disconnect
+{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px
+}
+
+.disconnect:hover
+{
+      color: #62bcda;
+      -webkit-transition: color 1s;
+      transition: color 1s;
+}
+
+input[type=text], input[type=password]
+ {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 32px;
+	margin: 0 0 72px;
+	text-align: center;
+	color: #FFF;
+}

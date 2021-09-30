@@ -1,0 +1,81 @@
+body {
+    display: grid;
+    background-color: #130025;
+    font-family: RedHatDisplay;
+  }
+  @font-face {
+    font-family: RedHatDisplay;
+    src: url(font/RedHatDisplay-Black.ttf);
+  }
+  @font-face {
+    font-family: Lexend;
+    src: url(font/Lexend-Thin.ttf);
+  }
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    background-color: #222222;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #222222;
+  }
+  .menu {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .menu a{
+    font-family: Lexend;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+	list-style: none;
+    padding: 0 10px;
+    color: #FFF;
+    transition: all 0.1s ease 0.2s;
+  }
+  .menu a:hover {
+    color: #62bcda;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+  }
+  h1 {
+	font-size: 100px;
+	line-height: 1;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+	margin-top: 111px;
+  }
+  .liste li {
+    font-size: 200%;
+    font-family: Lexend;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+	  list-style: none;
+    padding: 0 10px;
+    color: #FFF;
+    transition: all 0.1s ease 0.2s;
+  }
+  
+  .liste li a
+  {
+      text-decoration: none;
+      color: white;
+  }
+
+  .liste li a:hover
+  {
+      color: #62bcda;
+      -webkit-transition: color 1s;
+      transition: color 1s;
+  }
